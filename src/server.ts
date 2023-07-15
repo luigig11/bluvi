@@ -10,5 +10,5 @@ const PORT = process.env.PORT || 3000;
 const server: Server<typeof IncomingMessage, typeof ServerResponse> = createServer(app);
 
 server.listen(PORT, () => {
-    console.log("Project init in port ", PORT);
+    console.log("Project init in port, back on the game! x2", PORT);
 });
